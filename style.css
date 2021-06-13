@@ -37,7 +37,7 @@ header {
   width: 100vw;
   min-height: 400px;
   height: 100vh;
-  background: #03293c;
+  background: #b89f5d;
   color: white;
   font-weight: bold;
   text-align: left;
@@ -112,7 +112,7 @@ header article p {
   background: #686860;
 }
 .section:nth-child(3):before {
-  content: "Contact";
+  content: "Hire Me";
 }
 .section:nth-child(4) {
   background: #686860;
