@@ -14,7 +14,7 @@ body {
   margin: 0;
   font-family: "acta-display";
   font-weight: 300;
-  background: #bcbcbc;
+  background: #b89f5d;
 }
 
 html, body {
@@ -97,13 +97,13 @@ header article p {
   color: rgba(255, 255, 255, 0.05);
 }
 .section:nth-child(1) {
-  background: #f44e57;
+  background: #fa292a;
 }
 .section:nth-child(1):before {
   content: "About";
 }
 .section:nth-child(2) {
-  background: #1c2d35;
+  background: #5a7670;
 }
 .section:nth-child(2):before {
   content: "Experience";
