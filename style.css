@@ -14,7 +14,7 @@ body {
   margin: 0;
   font-family: "acta-display";
   font-weight: 300;
-  background: #A3BCB6;
+  background:  #DADED4;
 }
 
 html, body {
@@ -37,7 +37,7 @@ header {
   width: 100vw;
   min-height: 400px;
   height: 100vh;
-  background: #A3BCB6;
+  background:  #DADED4;
   color: #3C403D;
   font-weight: bold;
   text-align: left;
@@ -94,7 +94,7 @@ header article p {
   transform: translateY(-50%);
   content: "";
   font-size: 25.5rem;
-  color: #3C403D;
+  color: #A3BCB6;
 }
 .section:nth-child(1) {
   background: #39603D;
