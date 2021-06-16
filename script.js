@@ -26,8 +26,7 @@ $(function() {
     // Add debug indicators fixed on right side
      scene.addIndicators(); 
     
-    
-  
+
   });
     $('.view-gallery button').on('click', function() {
   $('.box').toggleClass('animated');
