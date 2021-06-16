@@ -94,25 +94,31 @@ header article p {
   transform: translateY(-50%);
   content: "";
   font-size: 25.5rem;
-  color: rgba(255, 255, 255, 0.05);
+  color: #3C403D;
 }
 .section:nth-child(1) {
-  background: #f44e57;
+  background: #39603D;
 }
 .section:nth-child(1):before {
-  content: "Chapter 01";
+  content: "About";
 }
 .section:nth-child(2) {
-  background: #1c2d35;
+  background: #FFFFFF;
 }
 .section:nth-child(2):before {
-  content: "Chapter 02";
+  content: "Experience";
 }
 .section:nth-child(3) {
-  background: #686860;
+  background:  #DADED4;
 }
 .section:nth-child(3):before {
-  content: "Chapter 03";
+  content: "Schedule Call";
+}
+.section:nth-child(4) {
+  background:  #DADED4;
+}
+.section:nth-child(4):before {
+  content: "";
 }
 .section__left {
   width: 50%;
