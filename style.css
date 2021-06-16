@@ -115,7 +115,7 @@ header article p {
   content: "Call Me";
 }
 .section:nth-child(4) {
-  background:  #39603D;
+  background:  #DADED4;
 }
 .section:nth-child(4):before {
   content: "Work";
@@ -166,7 +166,7 @@ header article p {
   transition: all 300ms ease;
 }
 
-.section article.box-1 {
+.section article .box-1 {
   background: url(https://github.com/Annesannella1/cautious-memory/blob/6c06cc7db379234c32ce4a6dff040f5525ab04d3/Bekind.ai);
   background-position: center;
   background-size: cover;
