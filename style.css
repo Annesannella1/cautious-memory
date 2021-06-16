@@ -38,7 +38,7 @@ header {
   min-height: 400px;
   height: 100vh;
   background:  #DADED4;
-  color: #3C403D;
+  color: #A3BCB6;
   font-weight: bold;
   text-align: left;
 }
@@ -50,12 +50,12 @@ header article {
   text-align: left;
 }
 header article h1 {
-  font-size: 9rem;
+  font-size: 10rem;
   margin: 0 0 2.5rem;
   line-height: 1em;
 }
 header article p {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .btn {
@@ -137,9 +137,6 @@ header article p {
 .section article p {
   font-size: 2rem;
   margin-bottom: 2rem;
-}
-
-  box-sizing: border-box;
 }
 
 ul {
