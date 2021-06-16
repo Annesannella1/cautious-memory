@@ -139,7 +139,6 @@ header article p {
   margin-bottom: 2rem;
 }
 
-* {
   box-sizing: border-box;
 }
 
@@ -178,7 +177,7 @@ ul {
 }
 
 .box-2 {
-  background: url(Brightflowers.ai);
+  background: url(https://github.com/Annesannella1/cautious-memory/blob/1122427fa6b3cd34ec66772740bc022c65ebffca/Brightflowers.ai);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
