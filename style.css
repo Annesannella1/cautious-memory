@@ -38,7 +38,7 @@ header {
   min-height: 400px;
   height: 100vh;
   background: #A3BCB6;
-  color: white;
+  color: #3C403D;
   font-weight: bold;
   text-align: left;
 }
@@ -79,7 +79,7 @@ header article p {
   width: 100vw;
   min-height: 400px;
   height: 100vh;
-  color: white;
+  color: #3C403D;
   padding-left: 16.66667%;
   padding-right: 16.66667%;
   box-sizing: border-box;
