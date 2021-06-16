@@ -118,7 +118,7 @@ header article p {
   background:  #39603D;
 }
 .section:nth-child(4):before {
-  content: "";
+  content: "Work";
 }
 .section__left {
   width: 50%;
