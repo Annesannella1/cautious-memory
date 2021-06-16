@@ -139,7 +139,7 @@ header article p {
   margin-bottom: 2rem;
 }
 
-ul {
+.section article ul {
   list-style: none;
   padding: 0;
   perspective: 3000px;
@@ -149,14 +149,14 @@ ul {
 }
 
 @media (min-width: 768px) {
-  ul {
+.section article ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
   }
 
-.box {
+.section article .box {
   width: 100%;
   height: 200px;
   margin: -3rem 0 0;
@@ -166,72 +166,71 @@ ul {
   transition: all 300ms ease;
 }
 
-.box-1 {
+.section article.box-1 {
   background: url(https://github.com/Annesannella1/cautious-memory/blob/6c06cc7db379234c32ce4a6dff040f5525ab04d3/Bekind.ai);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.box-2 {
+.section article .box-2 {
   background: url(https://github.com/Annesannella1/cautious-memory/blob/1122427fa6b3cd34ec66772740bc022c65ebffca/Brightflowers.ai);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.box-3 {
+.section article .box-3 {
   background-image: url(https://github.com/Annesannella1/cautious-memory/blob/67356e9be425248c59e7586eb86f4c44100d8abb/preview-2.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.box-4 {
+.setction article .box-4 {
   background-image: url(https://github.com/Annesannella1/cautious-memory/blob/2d7f59a0e998e7c38895d7eab24d34179c5513da/preview-4.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.box-5 {
+.section article .box-5 {
   background-image: url(https://github.com/Annesannella1/cautious-memory/blob/80a73e41df7db03edaa18e4344da39403fc47ff7/preview-5.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.box-6 {
+.section article .box-6 {
   background-image: url(https://github.com/Annesannella1/cautious-memory/blob/527a50a02127c9fe96a6c4c5a96f9770a681bfa6/preview.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.view-gallery {
+.section article .view-gallery {
   text-align: center;
   margin: 5vh 0;
 }
-.view-gallery button {
-  margin: auto center;
+.section article .view-gallery button {
   background:  #A3BCB6;
   color: white;
   padding: 1rem 2rem;
   border: 0;
   transition: background 200ms ease;
 }
-.view-gallery button:hover {
+.section article .view-gallery button:hover {
   cursor: pointer;
   background:  #A3BCB6;
 }
 
-.animated {
+.section article .animated {
   transform: translateY(0) skew(0, 0) rotateX(0deg);
   margin: 0 0 1rem;
 }
 
 @media (min-width: 768px) {
-  .animated {
+ .section article .animated {
     margin: 0;
   }
 }
