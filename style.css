@@ -100,25 +100,25 @@ header article p {
   background: #39603D;
 }
 .section:nth-child(1):before {
- content: "url(https://github.com/Annesannella1/cautious-memory/blob/2d7f59a0e998e7c38895d7eab24d34179c5513da/preview-4.jpeg)"; 
+ content: "Learn"; 
 }
 .section:nth-child(2) {
   background: #FFFFFF;
 }
 .section:nth-child(2):before {
-  content: "Experience";
+  content: "Think";
 }
 .section:nth-child(3) {
   background:  #DADED4;
 }
 .section:nth-child(3):before {
-  content: "Call Me";
+  content: "Create";
 }
 .section:nth-child(4) {
   background:  #DADED4;
 }
 .section:nth-child(4):before {
-  content: "Work";
+  content: "My Design Process";
 }
 .section__left {
   width: 50%;
