@@ -118,7 +118,7 @@ header article p {
   background:  #DADED4;
 }
 .section:nth-child(4):before {
-  content: "My Design Process";
+  content: "The Process";
 }
 .section__left {
   width: 50%;
