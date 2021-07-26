@@ -109,7 +109,7 @@ header article p {
   content: "Think";
 }
 .section:nth-child(3) {
-  background:  #DADED4;
+  background:  #999b94;
 }
 .section:nth-child(3):before {
   content: "Create";
