@@ -1,49 +1,4 @@
 $(function() {
-//   (function(){
-//     var width = window.innerWidth,
-//     height = window.innerHeight;
-//     console.log( width + ' : ' + height );
-
-//     if (width >= 768) {
-//     //Pen sticks to page (HCP-PAGE)
-//     new ScrollMagic.Scene({
-//         // duration: 2400,
-//         duration: 2400,
-//         offset: 0
-//     })
-//     .setPin(".pen")
-//     .addTo(controller);
-
-//     //Pen sticks to page (PATIENT-PAGE)
-//     new ScrollMagic.Scene({
-//         duration: 2300,
-//         offset: 0
-//     })
-//     .setPin(".patient-pen")
-//     .addTo(controller);
-// } else if (width < 768) {
-//         //Pen sticks to page (HCP-PAGE)
-//     new ScrollMagic.Scene({
-//         // duration: 2400,
-//         duration: 1250,
-//         offset: 0
-//     })
-//     .setPin(".pen")
-//     .addTo(controller);
-
-//     //Pen sticks to page (PATIENT-PAGE)
-//     new ScrollMagic.Scene({
-//         duration: 1250,
-//         offset: 0
-//     })
-//     .setPin(".patient-pen")
-//     .addTo(controller);
-
-//     }
-
-// }()); 
-  
-  
   
   $('[data-scrollmagic]').each(function (index, elem) {
     // Init ScrollMagic Controller
@@ -70,9 +25,8 @@ $(function() {
 
     // Add debug indicators fixed on right side
      scene.addIndicators(); 
-    
-
-  }());
+  });
+});
     $('.view-gallery button').on('click', function() {
   $('.box').toggleClass('animated');
   // $('ul').css({
