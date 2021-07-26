@@ -103,7 +103,7 @@ header article p {
  content: "Learn"; 
 }
 .section:nth-child(2) {
-  background: #FFFFFF;
+  background: #F8f8f6;
 }
 .section:nth-child(2):before {
   content: "Think";
