@@ -52,7 +52,7 @@ header article {
 header article h1 {
   font-size: 25.5rem;
   margin: 0 0 2.5rem;
-  line-height: 1rem;
+  line-height: 1em;
 }
 header article p {
   font-size: 5rem;
