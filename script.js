@@ -1,47 +1,47 @@
 $(function() {
-  (function(){
-    var width = window.innerWidth,
-    height = window.innerHeight;
-    console.log( width + ' : ' + height );
+//   (function(){
+//     var width = window.innerWidth,
+//     height = window.innerHeight;
+//     console.log( width + ' : ' + height );
 
-    if (width >= 768) {
-    //Pen sticks to page (HCP-PAGE)
-    new ScrollMagic.Scene({
-        // duration: 2400,
-        duration: 2400,
-        offset: 0
-    })
-    .setPin(".pen")
-    .addTo(controller);
+//     if (width >= 768) {
+//     //Pen sticks to page (HCP-PAGE)
+//     new ScrollMagic.Scene({
+//         // duration: 2400,
+//         duration: 2400,
+//         offset: 0
+//     })
+//     .setPin(".pen")
+//     .addTo(controller);
 
-    //Pen sticks to page (PATIENT-PAGE)
-    new ScrollMagic.Scene({
-        duration: 2300,
-        offset: 0
-    })
-    .setPin(".patient-pen")
-    .addTo(controller);
-} else if (width < 768) {
-        //Pen sticks to page (HCP-PAGE)
-    new ScrollMagic.Scene({
-        // duration: 2400,
-        duration: 1250,
-        offset: 0
-    })
-    .setPin(".pen")
-    .addTo(controller);
+//     //Pen sticks to page (PATIENT-PAGE)
+//     new ScrollMagic.Scene({
+//         duration: 2300,
+//         offset: 0
+//     })
+//     .setPin(".patient-pen")
+//     .addTo(controller);
+// } else if (width < 768) {
+//         //Pen sticks to page (HCP-PAGE)
+//     new ScrollMagic.Scene({
+//         // duration: 2400,
+//         duration: 1250,
+//         offset: 0
+//     })
+//     .setPin(".pen")
+//     .addTo(controller);
 
-    //Pen sticks to page (PATIENT-PAGE)
-    new ScrollMagic.Scene({
-        duration: 1250,
-        offset: 0
-    })
-    .setPin(".patient-pen")
-    .addTo(controller);
+//     //Pen sticks to page (PATIENT-PAGE)
+//     new ScrollMagic.Scene({
+//         duration: 1250,
+//         offset: 0
+//     })
+//     .setPin(".patient-pen")
+//     .addTo(controller);
 
-    }
+//     }
 
-}()); 
+// }()); 
   
   
   
