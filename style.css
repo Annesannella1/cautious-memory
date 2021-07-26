@@ -52,7 +52,7 @@ header article {
 header article h1 {
   font-size: 25.5rem;
   margin: 0 0 2.5rem;
-  line-height: 1em;
+  line-height: 1rem;
 }
 header article p {
   font-size: 5rem;
@@ -118,7 +118,7 @@ header article p {
   background:  #DADED4;
 }
 .section:nth-child(4):before {
-  content: "The Process";
+  content: "Results";
 }
 .section__left {
   width: 50%;
