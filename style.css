@@ -94,7 +94,7 @@ header article p {
   transform: translateY(-50%);
   content: "";
   font-size: 25.5rem;
-  color: rgba(255,255,255,0.05);
+  color: rgba(218, 222, 212, 1);
 }
 .section:nth-child(1) {
   background: #39603D;
