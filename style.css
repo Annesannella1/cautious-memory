@@ -128,6 +128,9 @@ header article p {
   width: 50%;
   float: left;
 }
+
+/* display grid begins */
+
 .section article {
   text-align: left;
 }
