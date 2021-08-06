@@ -118,7 +118,7 @@ header article p {
   background:  #605039;
 }
 .section:nth-child(4):before {
-  content: "Results";
+  content: "";
 }
 .section__left {
   width: 50%;
