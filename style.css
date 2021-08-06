@@ -14,7 +14,7 @@ body {
   margin: 0;
   font-family: "acta-display";
   font-weight: 300;
-  background:  #39603d;
+  background: #39603d;
 }
 
 html, body {
@@ -37,7 +37,7 @@ header {
   width: 100vw;
   min-height: 400px;
   height: 100vh;
-  background:  #39603d;
+  background: #39603d;
   color: #6bb573;
   font-weight: bold;
   text-align: left;
@@ -115,7 +115,7 @@ header article p {
   content: "Create";
 }
 .section:nth-child(4) {
-  background:  #DADED4;
+  background:  #605039;
 }
 .section:nth-child(4):before {
   content: "Results";
@@ -219,7 +219,7 @@ header article p {
   margin: 5vh 0;
 }
 .section article .view-gallery button {
-  background:  #A3BCB6;
+  background:  #6bb573;
   color: white;
   padding: 1rem 2rem;
   border: 0;
@@ -227,7 +227,7 @@ header article p {
 }
 .section article .view-gallery button:hover {
   cursor: pointer;
-  background:  #A3BCB6;
+  background:  #6bb573;
 }
 
 .section article .animated {
