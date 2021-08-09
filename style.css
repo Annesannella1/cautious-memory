@@ -131,7 +131,7 @@ header article p {
 
 /* display grid begins */
 
-.section article {
+.section +grid article {
    width: 100vw;
   min-height: 400px;
   height: 100vh;
@@ -142,15 +142,15 @@ header article p {
   position: relative;
   text-align: left;
 }
-.section article h3 {
+.section +grid article h3 {
   font-size: 4.1rem;
 }
-.section article p {
+.section +grid article p {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
 
-.section article ul {
+.section +grid article ul {
   list-style: none;
   padding: 0;
   perspective: 3000px;
@@ -160,14 +160,14 @@ header article p {
 }
 
 @media (min-width: 768px) {
-.section article ul {
+.section +grid article ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
   }
 
-.section article .box {
+.section +grid article .box {
   width: 100%;
   height: 250px;
   margin: -3rem 0 0;
@@ -224,29 +224,29 @@ header article p {
   background-repeat: no-repeat;
 }
 
-.section article .view-gallery {
+.section +grid article .view-gallery {
   text-align: center;
   margin: 5vh 0;
 }
-.section article .view-gallery button {
+.section +grid article .view-gallery button {
   background:  #6bb573;
   color: white;
   padding: 1rem 2rem;
   border: 0;
   transition: background 200ms ease;
 }
-.section article .view-gallery button:hover {
+.section +grid article .view-gallery button:hover {
   cursor: pointer;
   background:  #6bb573;
 }
 
-.section article .animated {
+.section +grid article .animated {
   transform: translateY(0) skew(0, 0) rotateX(0deg);
   margin: 0 0 1rem;
 }
 
 @media (min-width: 768px) {
- .section article .animated {
+ .section +grid article .animated {
     margin: 0;
   }
 }
