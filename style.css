@@ -84,6 +84,8 @@ header article p {
   padding-right: 16.66667%;
   box-sizing: border-box;
   position: relative;
+  border-color: purple;
+
 }
 .section:before {
   position: absolute;
@@ -95,6 +97,8 @@ header article p {
   content: "";
   font-size: 25.5rem;
   color: rgba(255, 255, 255, 0.05);
+  border-color: blue;
+
 }
 .section:nth-child(1) {
   width: 100%;
