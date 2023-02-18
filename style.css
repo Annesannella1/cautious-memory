@@ -86,7 +86,7 @@ header article p {
   position: relative;
 }
 .section:before {
-  position: relative;
+  position: absolute;
   left: 0;
   top: 0;
   width: 100%;
