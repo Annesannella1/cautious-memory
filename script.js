@@ -4,7 +4,7 @@ $(function() {
     // Init ScrollMagic Controller
     var scrollMagicController = new ScrollMagic();
      
-    var tween = TweenMax.to("#animate", 0.5,
+   // var tween = TweenMax.to("#animate", 0.5,
                             {scale: 1.3,repeat: 5,yoyo: true}); 
     
     // Create Animations
