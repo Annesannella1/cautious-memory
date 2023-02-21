@@ -37,8 +37,8 @@ header {
   width: 100vw;
   min-height: 400px;
   height: 100vh;
-  background: #b89f5d;
-  color: yellow;
+  background: #296660;
+  color: rgb(252, 3, 177);
   font-weight: bold;
   text-align: left;
 }
@@ -101,28 +101,28 @@ header article p {
 
 }
 .section:nth-child(1) {
-  background: #f6eb5b;
+  background: #f4f7e6;
 }
 .section:nth-child(1):before {
   content: "Strength";
 }
 .section:nth-child(2) {
-  background: #a85bf6;
+  background: #f4f7e6;
 }
 .section:nth-child(2):before {
   content: "Trust";
 }
 .section:nth-child(3) {
-  background: #6c9d6f;
+  background: #f4f7e6;
 }
 .section:nth-child(3):before {
   content: "Love";
 }
 .section:nth-child(4) {
-  background: #f96b25;
+  background: #f4f7e6;
 }
 .section:nth-child(4):before {
-  content: "hello";
+  content: "Peace";
 }
 .section__left {
   width: 50%;
