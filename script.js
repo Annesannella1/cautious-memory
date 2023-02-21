@@ -9,8 +9,8 @@ $(function() {
     var scene = new ScrollMagic.Scene({triggerElement:
                                       "#trigger", duration: "100%"})
         .setTween(tween)
-          .addIndicators()
-          .addTo(controller);
+          
+          .addTo(scrollMagicController);
     
     
     // Create Animations
