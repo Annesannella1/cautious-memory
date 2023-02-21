@@ -104,19 +104,19 @@ header article p {
   background: #fa292a;
 }
 .section:nth-child(1):before {
-  content: "About";
+  content: "Strength";
 }
 .section:nth-child(2) {
   background: #5a7670;
 }
 .section:nth-child(2):before {
-  content: "Experience";
+  content: "Trust";
 }
 .section:nth-child(3) {
   background: #686860;
 }
 .section:nth-child(3):before {
-  content: "Hire Me";
+  content: "Love";
 }
 .section:nth-child(4) {
   background: #686860;
