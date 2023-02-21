@@ -14,7 +14,7 @@ body {
   margin: 0;
   font-family: "acta-display";
   font-weight: 300;
-  background: #b89f5d;
+  background: #f65bdc;
 }
 
 html, body {
@@ -101,25 +101,25 @@ header article p {
 
 }
 .section:nth-child(1) {
-  background: #fa292a;
+  background: #f6eb5b;
 }
 .section:nth-child(1):before {
   content: "Strength";
 }
 .section:nth-child(2) {
-  background: #5a7670;
+  background: #a85bf6;
 }
 .section:nth-child(2):before {
   content: "Trust";
 }
 .section:nth-child(3) {
-  background: #686860;
+  background: #6c9d6f;
 }
 .section:nth-child(3):before {
   content: "Love";
 }
 .section:nth-child(4) {
-  background: #686860;
+  background: #f65b0e;
 }
 .section:nth-child(4):before {
   content: "Spare Time";
