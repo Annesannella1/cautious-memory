@@ -4,8 +4,14 @@ $(function() {
     // Init ScrollMagic Controller
     var scrollMagicController = new ScrollMagic();
      
-   // var tween = TweenMax.to("#animate", 0.5,
+    var tween = TweenMax.to("#animate", 0.5,
                             {scale: 1.3,repeat: 5,yoyo: true}); 
+    var scene = new ScrollMagic.Scene({triggerElement:
+                                      "#trigger", duration: "100%"})
+        .setTween(tween)
+          .addIndicators()
+          .addTo(controller);
+    
     
     // Create Animations
     var title = $(elem).find('h3'),
