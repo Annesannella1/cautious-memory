@@ -6,7 +6,7 @@ $(function() {
      
     var tween = TweenMax.to("#animate", 0.5,
                             {scale: 1.3,repeat: 5,yoyo: true}); 
-    var scene = new ScrollMagic.Scene({triggerElement:
+    var scene = ScrollMagic.Scene({triggerElement:
                                       "#trigger", duration: "100%"})
         .setTween(tween)
           
