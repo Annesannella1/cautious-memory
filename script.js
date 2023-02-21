@@ -3,15 +3,8 @@ $(function() {
   $('[data-scrollmagic]').each(function (index, elem) {
     // Init ScrollMagic Controller
     var scrollMagicController = new ScrollMagic();
+  
      
-  //  var tween = TweenMax.to("#animate", 0.5,
- //                           {scale: 1.3, repeat: 5, yoyo: true}); 
-   // var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: "100%"})
-     //   .setTween(tween)
-          
-       //   .addTo(scrollMagicController);
-    
-    
     // Create Animations
     var title = $(elem).find('h3'),
         text = $(elem).find('p'),
