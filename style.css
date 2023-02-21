@@ -125,11 +125,11 @@ header article p {
   content: "Peace";
 }
 .section__left {
-  width: 50%;
+  width: 65%;
   float: left;
 }
 .section__right {
-  width: 50%;
+  width: 65%;
   float: left;
 }
 .section article {
