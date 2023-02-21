@@ -37,7 +37,7 @@ header {
   width: 100vw;
   min-height: 400px;
   height: 100vh;
-  background: #2c8199;
+  background: #f4f7e6;
   color: rgb(252, 3, 177);
   font-weight: bold;
   text-align: left;
@@ -101,13 +101,13 @@ header article p {
 
 }
 .section:nth-child(1) {
-  background: #f4f7e6;
+  background: #4d3c0f;
 }
 .section:nth-child(1):before {
   content: "Strength";
 }
 .section:nth-child(2) {
-  background: #f4f7e6;
+  background: #e8ac07;
 }
 .section:nth-child(2):before {
   content: "Trust";
@@ -119,7 +119,7 @@ header article p {
   content: "Love";
 }
 .section:nth-child(4) {
-  background: #f4f7e6;
+  background: #e04fbe;
 }
 .section:nth-child(4):before {
   content: "Peace";
