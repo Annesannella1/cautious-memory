@@ -116,13 +116,13 @@ header article p {
   background: #f4f7e6;
 }
 .section:nth-child(3):before {
-  content: "Love";
+  content: "Faith";
 }
 .section:nth-child(4) {
   background: #e04fbe;
 }
 .section:nth-child(4):before {
-  content: "Peace";
+  content: "Choose";
 }
 .section__left {
   width: 65%;
