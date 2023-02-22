@@ -113,7 +113,7 @@ header article p {
   content: "Trust";
 }
 .section:nth-child(3) {
-  background: #f4f7e6;
+  background: #ecdccb;;
 }
 .section:nth-child(3):before {
   content: "Faith";
