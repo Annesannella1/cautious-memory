@@ -38,7 +38,7 @@ header {
   min-height: 400px;
   height: 100vh;
   background: #f4f7e6;
-  color: rgb(252, 3, 177);
+  color: rgba(252, 3, 177, 0.05);
   font-weight: bold;
   text-align: left;
 }
