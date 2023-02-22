@@ -101,7 +101,7 @@ header article p {
 
 }
 .section:nth-child(1) {
-  background: #4d3c0f;
+  background: #eb5942;
 }
 .section:nth-child(1):before {
   content: "Strength";
