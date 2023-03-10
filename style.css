@@ -77,7 +77,7 @@ header article p {
 
 .section {
   width: 100%;
-  max-width: 500px;
+  /* max-width: 500px; to see triggers*/
   min-height: 400px;
   height: 100vh;
   color: white;
