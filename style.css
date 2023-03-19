@@ -158,9 +158,12 @@ header article p {
    font-size: 9rem; 
    margin: 25.5rem;
    line-height: 5em;
-   }
-
-  .section:before {
+ }
+  
+ header article p {
+  font-size: 5rem;
+}
+.section:before {
     position: absolute;
     left: 0;
     top: 0;
@@ -171,6 +174,14 @@ header article p {
     font-size: 20.5rem;
     color: rgba(255, 255, 255, 0.25);
   
-  }
+}.section article h3 {
+  font-size: 5.1rem;
 }
+.section article p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
+
+  
+}
+
