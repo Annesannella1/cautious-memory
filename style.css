@@ -57,6 +57,10 @@ header article h1 {
   margin: 0 0 2.5rem;
   line-height: 1em;
 }
+@media acreen and (min-screen: 1024px) {
+   font-size: 9rem; 
+}
+
 header article p {
   font-size: 1rem;
 }
