@@ -150,7 +150,7 @@ header article p {
 }
 
 
-@media (min-screen: 600px) {
+@media (max-screen: 1024px) {
   
   html, body {
   font-size: 62.5%; */
