@@ -151,37 +151,135 @@ header article p {
 
 
 @media (min-screen: 600px) {
- html, body {
-   font-size: 62.5%;
- }
- header article h1 {
-   font-size: 9rem; 
-   margin: 25.5rem;
-   line-height: 5em;
- }
   
- header article p {
+  html, body {
+  font-size: 62.5%; */
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+  font-family: "acta-display";
+  font-weight: 300;
+}
+
+.flex, header, .section {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  width: 100vw;
+  min-height: 400px;
+  height: 100vh;
+  background: #DCC7BE;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  text-align: left;
+}
+header article {
+  padding-left: 8.33333%;
+  padding-right: 50%;
+  width: 41.66667%;
+  float: left;
+  text-align: left;
+}
+header article h1 {
+  font-size: 9rem;
+  margin: 0 0 2.5rem;
+  line-height: 1em;
+}
+
+
+header article p {
   font-size: 5rem;
 }
-.section:before {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    content: "";
-    font-size: 20.5rem;
-    color: rgba(255, 255, 255, 0.25);
+
+.btn {
+  padding: 1rem 2rem;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-size: 4rem;
+}
+.btn--ghost {
+  background: transparent;
+  color: white;
+  border: 1px solid #dfdfdf;
+}
+.btn--ghost:hover {
+  background: white;
+  color: black;
+}
+
+.section {
+  width: 100%;
+  /* max-width: 500px; to see triggers*/
+  min-height: 400px;
+  height: 100vh;
+  color: white;
+  padding-left: 16.66667%;
+  padding-right: 16.66667%;
+  box-sizing: border-box;
+  position: relative;
   
-}.section article h3 {
+
+}
+.section:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "";
+  font-size: 25.5rem;
+  color: rgba(255, 255, 255, 0.25);
+  
+
+}
+.section:nth-child(1) {
+  background: #968371;
+}
+.section:nth-child(1):before {
+  content: "Strength";
+}
+.section:nth-child(2) {
+  background: #145c9e;
+}
+.section:nth-child(2):before {
+  content: "Trust";
+}
+.section:nth-child(3) {
+  background: #084f6c;
+}
+.section:nth-child(3):before {
+  content: "Faith";
+}
+.section:nth-child(4) {
+  background: #1f271b;
+}
+.section:nth-child(4):before {
+  content: "Choose";
+}
+.section__left {
+  width: 65%;
+  float: left;
+}
+.section__right {
+  width: 65%;
+  float: left;
+}
+.section article {
+  text-align: left;
+}
+.section article h3 {
   font-size: 5.1rem;
 }
 .section article p {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
-
-  
+ 
 }
 
