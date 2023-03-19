@@ -131,11 +131,11 @@ header article p {
   content: "Choose";
 }
 .section__left {
-  width: 45%;
+  width: 50%;
   float: left;
 }
 .section__right {
-  width: 45%;
+  width: 40%;
   float: left;
 }
 .section article {
