@@ -148,9 +148,27 @@ header article p {
   font-size: .5rem;
   margin-bottom: 2rem;
 }
-@media screen and (min-screen: 1024px) {
-  bodyfont-size: 62.5%;
 
+
+@media (min-screen: 1024px) {
+ html, body {
+   font-size: 62.5%;
+ }
+ header article h1 {
    font-size: 9rem; 
-}
-}
+   margin: 25.5rem;
+   line-height: 5em;
+   }
+
+  .section:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    font-size: 20.5rem;
+    color: rgba(255, 255, 255, 0.25);
+  
+  }
