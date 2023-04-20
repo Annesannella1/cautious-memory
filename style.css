@@ -93,6 +93,18 @@ header article p {
   
 
 }
+
+.svg-container, .svg-container iframe {
+    position: relative;
+    margin: .25em;
+    width: 250px;
+    height: 250px;
+    background: url(experiencedesigns.png) no-repeat center center;
+    border: 0.5em solid #000;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 .section:before {
   position: absolute;
   left: 0;
@@ -107,9 +119,8 @@ header article p {
 
 }
 .section:nth-child(1) {
-  
- /* background: #968371; */
-  background: #968371 url("experiencedesigns.png") no-repeat fixed center; 
+  background: #968371; 
+   
 }
 .section:nth-child(1):before {
   content: "Strength";
