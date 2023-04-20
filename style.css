@@ -107,7 +107,7 @@ header article p {
 
 }
 .section:nth-child(1) {
-  background-image: url("experiencedesigns.gif");
+  background-image: url("experiencedesigns.png");
   background: #968371;
 }
 .section:nth-child(1):before {
