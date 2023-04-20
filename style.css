@@ -107,8 +107,9 @@ header article p {
 
 }
 .section:nth-child(1) {
-  background-image: url("experiencedesigns.png");
-  background: #968371;
+  
+ /* background: #968371; */
+  background: #968371 url("experiencedesigns.png") no-repeat fixed center; 
 }
 .section:nth-child(1):before {
   content: "Strength";
