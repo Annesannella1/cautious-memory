@@ -15,7 +15,7 @@ body {
   font-family: "acta-display";
   font-weight: 300;
 /*  background: #DCC7BE; */ 
-  background: tan;
+  background: #e9e0c9;
   
 }
 
@@ -42,7 +42,7 @@ header {
   min-height: 400px;
   height: 100vh;
  /* background: #DCC7BE;*/
-  background: white;
+  background: #e9e0cd;
   color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
   text-align: left;
@@ -79,7 +79,7 @@ header article p {
   border: 1px solid #dfdfdf;
 }
 .btn--ghost:hover {
-  background: white;
+  background: #e9e0cd;
   color: black;
 }
 
@@ -100,9 +100,9 @@ header article p {
 .svg-container, .svg-container iframe {
     position: relative;
     margin: auto;
-    width: 250px;
-    height: 250px;
-    background: url(experiencedesigns(1).png) no-repeat center right;
+    width: 300px;
+    height: 300px;
+    background: url(experiencedesigns(1).png) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
@@ -123,7 +123,7 @@ header article p {
 }
 .section:nth-child(1) {
  /* background: #968371; */
-  background: white;
+  background: #e9e0cd;
    
 }
 .section:nth-child(1):before {
@@ -131,7 +131,7 @@ header article p {
 }
 .section:nth-child(2) {
 /*  background: #145c9e; */
-  background: white;
+  background: #e9e0cd;
   
 }
 .section:nth-child(2):before {
@@ -139,13 +139,14 @@ header article p {
 }
 .section:nth-child(3) {
  /* background: #084f6c; */
-  background: white;
+  background: #e9e0cd;
 }
 .section:nth-child(3):before {
   content: "Faith";
 }
 .section:nth-child(4) {
-  background: #1f271b;
+ /* background: #1f271b; */
+  background: #e9e0cd;
 }
 .section:nth-child(4):before {
   content: "Choose";
