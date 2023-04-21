@@ -96,10 +96,10 @@ header article p {
 
 .svg-container, .svg-container iframe {
     position: relative;
-    margin: .25em;
+    margin: auto;
     width: 250px;
     height: 250px;
-    background: url(experiencedesigns(1).png) no-repeat center center;
+    background: url(experiencedesigns(1).png) no-repeat center right;
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
