@@ -14,7 +14,9 @@ body {
   margin: 0;
   font-family: "acta-display";
   font-weight: 300;
-  background: #DCC7BE; 
+/*  background: #DCC7BE; */ 
+  background: tan;
+  
 }
 
 html, body {
@@ -39,7 +41,8 @@ header {
   width: 100vw;
   min-height: 400px;
   height: 100vh;
-  background: #DCC7BE;
+ /* background: #DCC7BE;*/
+  background: white;
   color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
   text-align: left;
@@ -119,20 +122,24 @@ header article p {
 
 }
 .section:nth-child(1) {
-  background: #968371; 
+ /* background: #968371; */
+  background: white;
    
 }
 .section:nth-child(1):before {
   content: "Strength";
 }
 .section:nth-child(2) {
-  background: #145c9e;
+/*  background: #145c9e; */
+  background: white;
+  
 }
 .section:nth-child(2):before {
   content: "Trust";
 }
 .section:nth-child(3) {
-  background: #084f6c;
+ /* background: #084f6c; */
+  background: white;
 }
 .section:nth-child(3):before {
   content: "Faith";
