@@ -100,8 +100,8 @@ header article p {
 .svg-container, .svg-container iframe {
     position: relative;
     margin: auto;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background: url(experiencedesigns(1).png) no-repeat center center;
     border: 0.5em solid #000;
     border-radius: 50%;
