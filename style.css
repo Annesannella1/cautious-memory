@@ -96,8 +96,19 @@ header article p {
   
 
 }
+.svg-container {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid black;
+  transition: all .5s;
+}
+.svg-container-image:hover {
+  transform: scale(1.2) rotate(360deg);
+}
 
-.svg-container, .svg-container iframe {
+/*.svg-container, .svg-container iframe {
     position: relative;
     margin: auto;
     width: 250px;
@@ -106,7 +117,7 @@ header article p {
     border: 0.5em solid #000;
     border-radius: 50%;
     overflow: hidden;
-}
+}*/
 
 .section:before {
   position: absolute;
