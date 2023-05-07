@@ -96,7 +96,7 @@ header article p {
   
 
 }
-.section, .svg-container {
+.svg-container {
   margin-top: 50px;
   width: 200px;
   height: 200px;
@@ -104,7 +104,7 @@ header article p {
   border: 3px solid black;
   transition: all .5s;
 }
-.section, .svg-container-image:hover {
+.svg-container:hover {
   transform: scale(1.2) rotate(360deg);
 }
 
