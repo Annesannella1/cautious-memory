@@ -88,7 +88,7 @@ header article p {
   /* max-width: 500px; to see triggers*/
   min-height: 400px;
   height: 100vh;
-  color: white;
+  color: rgba(0, 0, 0, 0.2);
   padding-left: 16.66667%;
   padding-right: 16.66667%;
   box-sizing: border-box;
@@ -205,7 +205,7 @@ header {
   width: 100vw;
   min-height: 400px;
   height: 100vh;
-  background: #DCC7BE;
+  background: #e9e0c9;
   color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
   text-align: left;
@@ -237,7 +237,7 @@ header article p {
 }
 .btn--ghost {
   background: transparent;
-  color: white;
+  color: rgba(0, 0, 0, 0.2);
   border: 1px solid #dfdfdf;
 }
 .btn--ghost:hover {
@@ -250,7 +250,7 @@ header article p {
   /* max-width: 500px; to see triggers*/
   min-height: 400px;
   height: 100vh;
-  color: white;
+  color: rgba(0, 0, 0, 0.2);
   padding-left: 16.66667%;
   padding-right: 16.66667%;
   box-sizing: border-box;
