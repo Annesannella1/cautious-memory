@@ -274,8 +274,8 @@ header article p {
   .svg-container {
  /* margin-top: 50px; */
     margin: auto;
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   border: 3px solid black;
   transition: all .5s;
