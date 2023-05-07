@@ -270,26 +270,38 @@ header article p {
   
 
 }
+  .svg-container {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid black;
+  transition: all .5s;
+}
+.svg-container:hover {
+  transform: scale(1.2) rotate(360deg);
+}
 .section:nth-child(1) {
-  background: #968371;
+  background: #e9e0cd; 
 }
 .section:nth-child(1):before {
   content: "Strength";
 }
 .section:nth-child(2) {
-  background: #145c9e;
+   background: #e9e0cd;
+  
 }
 .section:nth-child(2):before {
   content: "Trust";
 }
 .section:nth-child(3) {
-  background: #084f6c;
+   background: #e9e0cd;
 }
 .section:nth-child(3):before {
   content: "Faith";
 }
 .section:nth-child(4) {
-  background: #1f271b;
+   background: #e9e0cd;
 }
 .section:nth-child(4):before {
   content: "Choose";
