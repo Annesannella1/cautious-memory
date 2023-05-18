@@ -44,7 +44,7 @@ header {
   height: 100vh;
  /* background: #DCC7BE;*/
   background: #bb6569;
-  color: rgb(0, 0, 0);
+  color: black;
   font-weight: bold;
   text-align: left;
 }
@@ -80,7 +80,7 @@ header article p {
   border: 1px solid #dfdfdf;
 }
 .btn--ghost:hover {
-  background: #e9e0cd;
+  background: #bb6569;
   color: black;
 }
 
@@ -89,7 +89,7 @@ header article p {
   /* max-width: 500px; to see triggers*/
   min-height: 400px;
   height: 100vh;
-  color: rgb(0, 0, 0);
+  color: black;
     
 
   padding-left: 16.66667%;
@@ -132,7 +132,7 @@ header article p {
   transform: translateY(-50%);
   content: "";
   font-size: 10.5rem;
-  color: rgb(0, 0, 0);
+  color: black;
   
 
 }
@@ -209,7 +209,7 @@ header {
   min-height: 400px;
   height: 100vh;
   background: #e9e0c9;
-  color: rgb(0, 0, 0);
+  color: black;
   font-weight: bold;
   text-align: left;
 }
@@ -240,7 +240,7 @@ header article p {
 }
 .btn--ghost {
   background: transparent;
-  color: rgb(0, 0, 0);
+  color: black;
   border: 1px solid #dfdfdf;
 }
 .btn--ghost:hover {
@@ -253,7 +253,7 @@ header article p {
   /* max-width: 500px; to see triggers*/
   min-height: 400px;
   height: 100vh;
-  color: rgb(0, 0, 0);
+  color: black;
   padding-left: 16.66667%;
   padding-right: 16.66667%;
   box-sizing: border-box;
@@ -270,7 +270,9 @@ header article p {
   transform: translateY(-50%);
   content: "";
   font-size: 25.5rem;
-  color: rgba(0, 0, 0, 0.25);
+  color: black;
+   
+
   
 
 }
