@@ -16,7 +16,7 @@ body {
   font-weight: 300;
 /*  background: #DCC7BE; */ 
  /* background: #e9e0c9; */
-  background: #bb5659;
+  background: #bb6569;
   
 }
 
@@ -43,7 +43,7 @@ header {
   min-height: 400px;
   height: 100vh;
  /* background: #DCC7BE;*/
-  background: #e9e0cd;
+  background: #bb6569;
   color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
   text-align: left;
@@ -136,7 +136,7 @@ header article p {
 }
 .section:nth-child(1) {
  /* background: #968371; */
-  background: #e9e0cd;
+  background: #bb6569;
    
 }
 .section:nth-child(1):before {
@@ -144,7 +144,7 @@ header article p {
 }
 .section:nth-child(2) {
 /*  background: #145c9e; */
-  background: #e9e0cd;
+  background: #bb6569;
   
 }
 .section:nth-child(2):before {
