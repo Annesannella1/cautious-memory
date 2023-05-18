@@ -82,6 +82,7 @@ header article p {
 .btn--ghost:hover {
   background: #bb6569;
   color: black;
+  border: 1pk solid #000000;
 }
 
 .section {
